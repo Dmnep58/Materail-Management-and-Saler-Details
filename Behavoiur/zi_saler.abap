@@ -61,6 +61,9 @@ authorization dependent by _saler
 early numbering
 //etag master
 {
+  validation validate_seller on save { create; field Salerid; }
+*validation validate_status on save { create; field Status; }
+  validation validate_amount on save { create; field Price; }
   update;
   delete;
   field ( readonly ) ImageNumber, Matno, Salerid;

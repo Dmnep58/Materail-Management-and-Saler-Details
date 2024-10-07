@@ -1,38 +1,7 @@
-1.
-Draft use garnu parxa ani tesma ni tyo video ma dekhaye jhai component auto genearate garnu parxa ani tyo component le garda uuid generate hucha jasle garda
-hamle upload option dekhna paunxau.
-
-Natra hamle download / upload option chahe create gari sake paxi hernu paunxau hai
-
-2.
-ani tespaxi customer tira ko create garne jasma
-
-add product button ani click gari sake paxi object list page ma sabai dekhauni ani teslai download garni option ni dine.
-
-add product chahi --> action ho
-
-3.
-Create garnu auta Material ko list page ani tesma photo kasari use garne ani
-        --> materials like add garne kun kun chahinxa ani ekai choti product by ma click garda
-                    sabai ko total amount calculate vayerw list page khulos jasma total quantity and total price show garosh and uta quantity
-                        lai update grana ni milosh.
-
-
 -------------------------------------------------------------------
 ===================================================================
-Draft  and Action ------------>  point of View
+Draft  and Action
 ===================================================================
 -------------------------------------------------------------------
 
-
-
-=========================================================================================
-Questions.
-=========================================================================================
-1. Hami le kasari table ko data check garna sakxau user le enter gari sake paxi
-
-        --> jastai ahile maile material number check garnu xa ki tyo present xa ki nai table ma.
-
-2. Hierarchy kasari garaunu Order ma Kasari Composition lai use garnu Ek Arka ko lagi.
-        --> Tree Structure kasari Create Garnu.
 

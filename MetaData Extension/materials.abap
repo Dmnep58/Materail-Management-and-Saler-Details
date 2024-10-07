@@ -59,4 +59,11 @@ identification: [{  position : 80 , label :'Price' }] }
 @UI : { lineItem: [{ position : 80 , label :'Status' }],
 identification: [{  position : 80 , label :'Status' }] }
     Status;
+    Status;
+@UI : { lineItem: [{ position : 90 , label :'TotalAmount' }],
+identification: [{  position : 90 , label :'TotalAmount' }] }
+    TotalAmount;
+@UI : { lineItem: [{ position : 100 , label :'TotalPrice' }],
+identification: [{  position : 100 , label :'TotalPrice' }] }
+TotalPrice;
 }

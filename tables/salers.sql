@@ -48,6 +48,8 @@ material_created_by : abap.char(40);
 price               : abap.curr(12,2);
 material_created_at : abp_locinst_lastchange_tstmpl;
 status              : abap.char(2);
+@Semantics.amount.currencyCode : 'zmaterials_tab.currencycode'
+totalprice          : abap.curr(15,2);
 }
 
 
