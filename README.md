@@ -3,7 +3,7 @@
 The system allows users to perform CRUD (Create, Read, Update, Delete) operations on these entities and implements business logic to ensure data consistency and correct associations.</p>
 
 <hr>
-<h4>Table Structure</h4>
+<u><h4>Table Structure</h4></u>
 <h5>1. Salers Table (zsalers_table)</h5>
 <p><b>Purpose:</b> Stores information about the salers (sellers) such as their ID, name, and address.<br>
 <b>Key Fields:</b><br>
@@ -32,7 +32,7 @@ attachment: Raw binary data representing the image.
 </p>
 <hr>
 
-<h4>Key Concepts and Features</h4>
+<u><h3>Key Concepts and Features</h3></u>
 <h5>1.CRUD Operations:</h5>
 <p>Supports full create, update, and delete operations for Salers, Materials, and Images.</p>
 
