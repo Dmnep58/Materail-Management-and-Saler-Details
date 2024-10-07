@@ -41,14 +41,14 @@ The system allows users to perform CRUD (Create, Read, Update, Delete) operation
 <hr>
 
 <u><h3>Key Concepts and Features</h3></u>
-<h5>1.CRUD Operations:</h5>
+<h5>1. CRUD Operations:</h5>
 <p>
   <ul>
     <li> Supports full create, update, and delete operations for Salers, Materials, and Images.</li>
   </ul>
 </p>
 
-<h5>2.Business Logic:</h5>
+<h5>2. Business Logic:</h5>
 <p>
 <ul>
   <li><b>Material Availability:</b> Actions to set a material's status to available or unavailable.</li>
@@ -63,7 +63,7 @@ The system allows users to perform CRUD (Create, Read, Update, Delete) operation
 </ul>
 
 
-<h5>Associations:</h5>
+<h5>4. Associations:</h5>
 <p>
 <ul>
   <li>Materials are associated with Salers.</li>
