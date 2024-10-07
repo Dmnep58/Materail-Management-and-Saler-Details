@@ -74,7 +74,7 @@ The system allows users to perform CRUD (Create, Read, Update, Delete) operation
 <h2>Output of the Application</h2>
 <ul>
 <li>1. Main Page</li>
-<img src =' https://github.com/user-attachments/assets/1f5541e8-6d29-416c-850a-e96016e0ca73'/>
+<img src = 'https://github.com/user-attachments/assets/1f5541e8-6d29-416c-850a-e96016e0ca73'/>
 <li>2. Secondary Seller object page and list page.</li>
 <img src = 'https://github.com/user-attachments/assets/cfaafaa8-07e6-4f03-8adc-f692f43e4dc3'/>
 <li>3. More detailed with material object page and image list view.</li>
