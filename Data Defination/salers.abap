@@ -10,14 +10,27 @@
     sizeCategory: #S,
     dataClass: #MIXED
 }
-define root view entity zi_saler as select from zsalers_table
-composition[1..*] of zi_materal  as _material
+
+define root view entity zi_saler
+  as select from zsalers_tab
+  composition [0..*] of zi_materal as _material
 {
-    key saler_id as SalerId,
-    name as Name,
-    address as Address,
-    _material // Make association public
+      @ObjectModel.text.element: ['Name']
+  key saler_id as SalerId,
+      @Semantics.name.fullName: true
+      name     as Name,
+      @Semantics.telephone.type: [#HOME]
+      phone    as Phone,
+      @Semantics.eMail.address
+      email    as Email,
+      @Semantics.address.zipCode: true
+      postcode as Postcode,
+      @Semantics.address.label: true
+      address  as Address,
+      lastchangedat as LastChangedAt,
+      _material // Make association public
 }
+
 
 
 
@@ -26,13 +39,18 @@ composition[1..*] of zi_materal  as _material
 @EndUserText.label: 'consumption (projection) salers'
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @Metadata.allowExtensions: true
-define root view entity zc_Saler
+@Search.searchable: true
+define root view entity zc_Saler 
 provider contract transactional_query
 as projection on zi_saler
 {
     key SalerId,
     Name,
+    Phone,
+    Email,
     Address,
+    Postcode,
     /* Associations */
     _material : redirected to composition child zc_materials
 }
+
