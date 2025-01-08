@@ -1,19 +1,23 @@
-" Consumption View
 projection;
 strict ( 2 );
+//use draft;
 
-define behavior for zc_Saler //alias <alias_name>
+define behavior for zc_Saler
 {
   use create;
   use update;
   use delete;
+  use action extendmat;
+
+  use action load_material;
+
 
   use association _material { create; }
 }
 
 
-define behavior for zc_materials //alias <alias_name>
-//use etag
+define behavior for zc_materials
+use etag
 {
   use update;
   use delete;
@@ -23,11 +27,10 @@ define behavior for zc_materials //alias <alias_name>
   use association _images { create; }
 }
 
-define behavior for zc_images //alias <alias_name>
+define behavior for zc_images
 {
   use update;
   use delete;
-
   use association _material;
   use association _saler;
 }
